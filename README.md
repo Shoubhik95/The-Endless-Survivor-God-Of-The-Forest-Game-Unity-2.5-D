@@ -1,94 +1,76 @@
 <div align="center">
 
-# 🌲 Forest Protector 2.5 D
+<img src="Banner.svg" alt="Forest Protector 2.5 D banner" width="100%" />
 
-### *The Endless Survivor – God of the Forest*
-
-A 2.5D Survival Adventure Game developed with **Unity Engine**.
+<br/>
 
 <p align="center">
-
 <a href="YOUR_ITCH_IO_LINK">
 <img src="https://img.shields.io/badge/🎮%20Download-Play%20on%20Itch.io-EF4B4B?style=for-the-badge">
 </a>
-
 <img src="https://img.shields.io/badge/Engine-Unity-000000?style=for-the-badge&logo=unity">
-
 <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows">
-
 <img src="https://img.shields.io/badge/Language-C%23-68217A?style=for-the-badge&logo=csharp">
-
 </p>
 
 </div>
 
----
+<img src="Divider.svg" width="100%" />
 
-# 🎮 About The Game
+## 🎮 About The Game
 
 **Forest Protector 2.5 D** is a 2.5D survival action game where players protect the forest from dangerous enemies while exploring a handcrafted environment.
 
 The project focuses on gameplay mechanics, smooth player movement, enemy AI, environmental storytelling, and polished Unity development.
 
----
+<img src="Divider.svg" width="100%" />
 
-# 📥 Download
+## 📥 Download
 
-## Windows Build
+### Windows Build
 
 ➡️ **Download & Play**
 
-**Itch.io:**  
+**Itch.io:**
 YOUR_ITCH_IO_LINK
 
----
+<img src="Divider.svg" width="100%" />
 
-# 📸 Gameplay Preview
+## 📸 Gameplay Preview
 
-## Main Gameplay
+**Main Gameplay**
 
 <p align="center">
 <img src="images/gameplay1.png" width="850">
 </p>
 
----
-
-## Combat
+**Combat**
 
 <p align="center">
 <img src="images/gameplay2.png" width="850">
 </p>
 
----
-
-## Forest Environment
+**Forest Environment**
 
 <p align="center">
 <img src="images/gameplay3.png" width="850">
 </p>
 
----
-
-## Exploration
+**Exploration**
 
 <p align="center">
 <img src="images/gameplay4.png" width="850">
 </p>
 
----
+<img src="Divider.svg" width="100%" />
 
-# ✨ Features
+## ✨ Features
 
-- 🌲 Beautiful Forest Environment
-- ⚔️ 2.5D Survival Gameplay
-- 🤖 Enemy AI
-- 🎯 Smooth Character Controls
-- 💻 Windows Build
-- 🎵 Immersive Experience
+<img src="Features.svg" alt="Game features overview" width="100%" />
 
----
+<img src="Divider.svg" width="100%" />
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 | Technology | Used |
 |------------|------|
@@ -98,9 +80,11 @@ YOUR_ITCH_IO_LINK
 | IDE | Visual Studio |
 | Version Control | Git + Git LFS |
 
----
+<img src="Divider.svg" width="100%" />
 
-# 🎮 Controls
+## 🎮 Controls
+
+<img src="Controls.svg" alt="Game controls: WASD to move, Shift to sprint, Space to jump, left click to attack" width="100%" />
 
 | Key | Action |
 |------|--------|
@@ -109,13 +93,12 @@ YOUR_ITCH_IO_LINK
 | Left Mouse | Attack |
 | Shift | Sprint |
 
----
+<img src="Divider.svg" width="100%" />
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```text
 Forest Protector 2.5 D
-
 ├── Forest Protector 2.5 D.exe
 ├── Forest Protector 2.5 D_Data/
 ├── MonoBleedingEdge/
@@ -125,9 +108,9 @@ Forest Protector 2.5 D
 └── images/
 ```
 
----
+<img src="Divider.svg" width="100%" />
 
-# 📸 Screenshots
+## 📸 Screenshots
 
 | Gameplay | Combat |
 |----------|---------|
@@ -137,9 +120,9 @@ Forest Protector 2.5 D
 |------------|--------------|
 | ![](images/shot3.png) | ![](images/shot4.png) |
 
----
+<img src="Divider.svg" width="100%" />
 
-# 🚀 Future Improvements
+## 🚀 Future Improvements
 
 - New Levels
 - Better Enemy AI
@@ -147,22 +130,20 @@ Forest Protector 2.5 D
 - Save System
 - Improved Visual Effects
 
----
+<img src="Divider.svg" width="100%" />
 
-# 👨‍💻 Developer
+## 👨‍💻 Developer
 
-## Shoubhik Bhattacharya
-
+### Shoubhik Bhattacharya
 **Game Developer • Technical Artist**
 
-### Connect With Me
-
+**Connect With Me**
 - 💼 LinkedIn: YOUR_LINKEDIN
 - 🌐 Portfolio: YOUR_PORTFOLIO
 - 🎮 Itch.io: YOUR_ITCH_IO_LINK
 - 💻 GitHub: https://github.com/Shoubhik95
 
----
+<img src="Divider.svg" width="100%" />
 
 <div align="center">
 
