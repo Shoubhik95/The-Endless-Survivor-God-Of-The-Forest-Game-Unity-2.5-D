@@ -1,0 +1,92 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1F15"/>
+      <stop offset="55%" stop-color="#123524"/>
+      <stop offset="100%" stop-color="#0D2418"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8B94A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#E8B94A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6BE0CB" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#4FB8A6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <filter id="blurS"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="blurM"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#skyGrad)"/>
+
+  <!-- sunbeams -->
+  <g opacity="0.12" fill="#E8B94A">
+    <polygon points="500,0 620,0 760,400 600,400"/>
+    <polygon points="700,0 760,0 980,400 860,400"/>
+  </g>
+  <circle cx="560" cy="60" r="90" fill="url(#sunGlow)" filter="url(#blurM)"/>
+
+  <!-- far treeline -->
+  <g fill="#0C2017">
+    <polygon points="0,300 40,230 80,300 120,250 160,300 200,220 240,300 280,260 320,300 1200,300 1200,300 0,300"/>
+  </g>
+
+  <!-- mid treeline -->
+  <g fill="#102A1C">
+    <polygon points="900,300 940,210 980,300 1020,240 1060,300 1100,215 1140,300 1180,255 1200,300 1200,400 900,400"/>
+    <polygon points="0,300 0,400 380,400 380,300 340,225 300,300 260,245 220,300 180,235 140,300 100,255 60,300 20,235 0,300"/>
+  </g>
+
+  <!-- guardian tree, center, with glowing eyes -->
+  <g transform="translate(600,300)">
+    <circle cx="0" cy="-150" r="70" fill="url(#eyeGlow)" filter="url(#blurM)" opacity="0.6"/>
+    <path d="M-14,0 L-14,-120 L-60,-150 L-22,-150 L-50,-195 L-16,-178 L-16,-230 L0,-260 L16,-230 L16,-178 L50,-195 L22,-150 L60,-150 L14,-120 L14,0 Z"
+          fill="#0A1A12"/>
+    <ellipse cx="-12" cy="-188" rx="5" ry="7" fill="#6BE0CB"/>
+    <ellipse cx="12" cy="-188" rx="5" ry="7" fill="#6BE0CB"/>
+  </g>
+
+  <!-- ground -->
+  <rect y="300" width="1200" height="100" fill="#081410"/>
+
+  <!-- eyebrow -->
+  <text x="600" y="70" text-anchor="middle" font-family="Courier New, monospace" font-size="15"
+        letter-spacing="4" fill="#E8B94A">UNITY ENGINE &#8226; 2.5D SURVIVAL ADVENTURE</text>
+
+  <!-- title -->
+  <text x="600" y="172" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold"
+        font-size="76" letter-spacing="3" fill="#0A1A12" opacity="0.5">FOREST PROTECTOR</text>
+  <text x="600" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold"
+        font-size="76" letter-spacing="3" fill="#EDE6D3">FOREST PROTECTOR</text>
+
+  <!-- subtitle badge -->
+  <text x="600" y="210" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="20"
+        fill="#9FB8A6">The Endless Survivor &#8212; God of the Forest</text>
+
+  <!-- leaf-seal emblems -->
+  <g transform="translate(140,200)">
+    <circle r="44" fill="url(#eyeGlow)" filter="url(#blurS)" opacity="0.45"/>
+    <g fill="none" stroke="#5FA96C" stroke-width="2">
+      <circle r="30"/>
+      <path d="M0,-30 C16,-18 16,18 0,30 C-16,18 -16,-18 0,-30 Z"/>
+      <path d="M-30,0 C-18,16 18,16 30,0 C18,-16 -18,-16 -30,0 Z"/>
+    </g>
+    <circle r="5" fill="#E8B94A"/>
+  </g>
+  <g transform="translate(1060,200)">
+    <circle r="44" fill="url(#eyeGlow)" filter="url(#blurS)" opacity="0.45"/>
+    <g fill="none" stroke="#5FA96C" stroke-width="2">
+      <circle r="30"/>
+      <path d="M0,-30 C16,-18 16,18 0,30 C-16,18 -16,-18 0,-30 Z"/>
+      <path d="M-30,0 C-18,16 18,16 30,0 C18,-16 -18,-16 -30,0 Z"/>
+    </g>
+    <circle r="5" fill="#E8B94A"/>
+  </g>
+
+  <rect width="1200" height="400" fill="url(#vignette)"/>
+</svg>
