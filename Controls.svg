@@ -1,0 +1,60 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E2618"/>
+      <stop offset="100%" stop-color="#0A1C12"/>
+    </linearGradient>
+    <linearGradient id="keyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6E5640"/>
+      <stop offset="100%" stop-color="#4A3826"/>
+    </linearGradient>
+    <linearGradient id="keyGActive" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3F7A4F"/>
+      <stop offset="100%" stop-color="#2A5836"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#cbg)"/>
+  <text x="60" y="46" font-family="Courier New, monospace" font-size="14" letter-spacing="3" fill="#E8B94A">HOW TO PLAY</text>
+
+  <!-- MOVE: WASD cluster -->
+  <g transform="translate(90,80)" font-family="Georgia, serif">
+    <g font-size="26" font-weight="bold" fill="#EDE6D3" text-anchor="middle">
+      <rect x="64" y="0" width="58" height="58" rx="8" fill="url(#keyG)" stroke="#2E2014" stroke-width="2"/>
+      <text x="93" y="38">W</text>
+
+      <rect x="0" y="64" width="58" height="58" rx="8" fill="url(#keyG)" stroke="#2E2014" stroke-width="2"/>
+      <text x="29" y="102">A</text>
+
+      <rect x="64" y="64" width="58" height="58" rx="8" fill="url(#keyG)" stroke="#2E2014" stroke-width="2"/>
+      <text x="93" y="102">S</text>
+
+      <rect x="128" y="64" width="58" height="58" rx="8" fill="url(#keyG)" stroke="#2E2014" stroke-width="2"/>
+      <text x="157" y="102">D</text>
+    </g>
+    <text x="93" y="148" text-anchor="middle" font-family="Courier New, monospace" font-size="13" letter-spacing="2" fill="#9FB8A6">MOVE</text>
+
+    <!-- Shift -->
+    <rect x="0" y="172" width="186" height="46" rx="8" fill="url(#keyGActive)" stroke="#1C3322" stroke-width="2"/>
+    <text x="93" y="201" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#EDE6D3">SHIFT</text>
+    <text x="93" y="240" text-anchor="middle" font-family="Courier New, monospace" font-size="13" letter-spacing="2" fill="#9FB8A6">SPRINT</text>
+  </g>
+
+  <!-- JUMP: Space bar -->
+  <g transform="translate(420,90)">
+    <rect x="0" y="0" width="320" height="58" rx="8" fill="url(#keyG)" stroke="#2E2014" stroke-width="2"/>
+    <text x="160" y="38" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="22" fill="#EDE6D3">SPACE</text>
+    <text x="160" y="100" text-anchor="middle" font-family="Courier New, monospace" font-size="13" letter-spacing="2" fill="#9FB8A6">JUMP</text>
+  </g>
+
+  <!-- ATTACK: mouse -->
+  <g transform="translate(830,70)">
+    <path d="M50,0 C78,0 96,20 96,55 L96,100 C96,135 78,155 50,155 C22,155 4,135 4,100 L4,55 C4,20 22,0 50,0 Z"
+          fill="url(#keyG)" stroke="#2E2014" stroke-width="2"/>
+    <line x1="50" y1="0" x2="50" y2="65" stroke="#2E2014" stroke-width="2"/>
+    <line x1="4" y1="65" x2="96" y2="65" stroke="#2E2014" stroke-width="2"/>
+    <rect x="14" y="10" width="28" height="40" rx="10" fill="#3F7A4F" opacity="0.9"/>
+    <text x="50" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#EDE6D3">LEFT CLICK</text>
+    <text x="50" y="220" text-anchor="middle" font-family="Courier New, monospace" font-size="13" letter-spacing="2" fill="#9FB8A6">ATTACK</text>
+  </g>
+</svg>
