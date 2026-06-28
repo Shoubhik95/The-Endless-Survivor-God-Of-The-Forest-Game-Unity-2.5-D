@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E2618"/>
+      <stop offset="100%" stop-color="#0A1C12"/>
+    </linearGradient>
+    <linearGradient id="cardG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#163826"/>
+      <stop offset="100%" stop-color="#0F2A1B"/>
+    </linearGradient>
+    <radialGradient id="iconGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6BE0CB" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#6BE0CB" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="fblur"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#fbg)"/>
+  <text x="60" y="46" font-family="Courier New, monospace" font-size="14" letter-spacing="3" fill="#E8B94A">WHAT YOU'LL FIND IN THE FOREST</text>
+
+  <!-- 6 feature cards, 3x2 grid -->
+  <g font-family="Georgia, serif">
+    <!-- Card 1 -->
+    <g transform="translate(60,70)">
+      <rect width="350" height="105" rx="6" fill="url(#cardG)" stroke="#2E5A3D" stroke-width="1"/>
+      <circle cx="50" cy="52" r="28" fill="url(#iconGlow)" filter="url(#fblur)"/>
+      <path d="M50,28 C62,38 62,58 50,72 C38,58 38,38 50,28 Z" fill="#5FA96C"/>
+      <text x="95" y="46" font-size="19" fill="#EDE6D3">Forest Environment</text>
+      <text x="95" y="68" font-size="13" fill="#9FB8A6">Handcrafted, alive, and worth exploring</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(425,70)">
+      <rect width="350" height="105" rx="6" fill="url(#cardG)" stroke="#2E5A3D" stroke-width="1"/>
+      <circle cx="50" cy="52" r="28" fill="url(#iconGlow)" filter="url(#fblur)"/>
+      <path d="M35,68 L50,30 L65,68 Z" fill="none" stroke="#E8B94A" stroke-width="3" stroke-linejoin="round"/>
+      <line x1="42" y1="52" x2="58" y2="52" stroke="#E8B94A" stroke-width="3"/>
+      <text x="95" y="46" font-size="19" fill="#EDE6D3">2.5D Survival Gameplay</text>
+      <text x="95" y="68" font-size="13" fill="#9FB8A6">Depth and danger in equal measure</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(790,70)">
+      <rect width="350" height="105" rx="6" fill="url(#cardG)" stroke="#2E5A3D" stroke-width="1"/>
+      <circle cx="50" cy="52" r="28" fill="url(#iconGlow)" filter="url(#fblur)"/>
+      <circle cx="50" cy="44" r="11" fill="none" stroke="#6BE0CB" stroke-width="3"/>
+      <circle cx="44" cy="42" r="2" fill="#6BE0CB"/>
+      <circle cx="56" cy="42" r="2" fill="#6BE0CB"/>
+      <path d="M38,68 L40,58 L60,58 L62,68 Z" fill="#6BE0CB" opacity="0.85"/>
+      <text x="95" y="46" font-size="19" fill="#EDE6D3">Enemy AI</text>
+      <text x="95" y="68" font-size="13" fill="#9FB8A6">Threats that hunt, not just spawn</text>
+    </g>
+
+    <!-- Card 4 -->
+    <g transform="translate(60,190)">
+      <rect width="350" height="105" rx="6" fill="url(#cardG)" stroke="#2E5A3D" stroke-width="1"/>
+      <circle cx="50" cy="52" r="28" fill="url(#iconGlow)" filter="url(#fblur)"/>
+      <circle cx="50" cy="52" r="14" fill="none" stroke="#E8B94A" stroke-width="3"/>
+      <line x1="50" y1="38" x2="50" y2="30" stroke="#E8B94A" stroke-width="3"/>
+      <line x1="50" y1="66" x2="50" y2="74" stroke="#E8B94A" stroke-width="3"/>
+      <line x1="36" y1="52" x2="28" y2="52" stroke="#E8B94A" stroke-width="3"/>
+      <line x1="64" y1="52" x2="72" y2="52" stroke="#E8B94A" stroke-width="3"/>
+      <text x="95" y="46" font-size="19" fill="#EDE6D3">Smooth Character Controls</text>
+      <text x="95" y="68" font-size="13" fill="#9FB8A6">Movement that feels responsive</text>
+    </g>
+
+    <!-- Card 5 -->
+    <g transform="translate(425,190)">
+      <rect width="350" height="105" rx="6" fill="url(#cardG)" stroke="#2E5A3D" stroke-width="1"/>
+      <circle cx="50" cy="52" r="28" fill="url(#iconGlow)" filter="url(#fblur)"/>
+      <rect x="33" y="42" width="34" height="22" rx="3" fill="none" stroke="#5FA96C" stroke-width="3"/>
+      <rect x="42" y="64" width="16" height="6" fill="#5FA96C"/>
+      <text x="95" y="46" font-size="19" fill="#EDE6D3">Windows Build</text>
+      <text x="95" y="68" font-size="13" fill="#9FB8A6">Ready to download and play</text>
+    </g>
+
+    <!-- Card 6 -->
+    <g transform="translate(790,190)">
+      <rect width="350" height="105" rx="6" fill="url(#cardG)" stroke="#2E5A3D" stroke-width="1"/>
+      <circle cx="50" cy="52" r="28" fill="url(#iconGlow)" filter="url(#fblur)"/>
+      <path d="M32,52 Q40,30 50,52 Q60,74 68,52" fill="none" stroke="#6BE0CB" stroke-width="3" stroke-linecap="round"/>
+      <text x="95" y="46" font-size="19" fill="#EDE6D3">Immersive Sound</text>
+      <text x="95" y="68" font-size="13" fill="#9FB8A6">A forest that breathes around you</text>
+    </g>
+  </g>
+</svg>
